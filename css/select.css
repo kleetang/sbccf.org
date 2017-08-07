@@ -1,0 +1,193 @@
+.row{
+    position: relative;
+}
+.whole{
+    background-color: inherit;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.col{
+    height: 400px;
+}
+.smcol{
+    height: 200px;
+}
+#smretreat{
+    background-image: url('../img/select/retreat.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#smgc{
+    background-image: url('../img/select/gc.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#smother{
+    background-image: url('../img/select/otherevents.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#smretreattitle{
+    position: absolute;        
+    background-position: center center;
+    z-index:10;
+    height: 60px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-image: url('../img/select/retreattitle.png');
+}
+#smgctitle{
+    position: absolute;        
+    background-position: center center;
+    z-index:10;
+    height: 60px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-image: url('../img/select/gctitle.png');
+}
+#smothertitle{
+    position: absolute;        
+    background-position: center center;
+    z-index:10;
+    height: 60px;
+    width: 300px;
+    background-repeat: no-repeat;
+    background-image: url('../img/select/othertitle.png');
+}
+
+#bgretreat{
+    background-image: url('../img/select/retreat.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#wholeretreat{
+    height: 400px;
+    background-image: url('../img/select/retreat.jpg');
+    background-size: cover;
+    position: absolute;
+    display: none;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#bggc{
+    background-image: url('../img/select/gc.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#wholegc{
+    height: 400px;
+    background-image: url('../img/select/gc.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+}
+#bgother{
+    background-image: url('../img/select/otherevents.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#wholeother{
+    height: 400px;
+    background-image: url('../img/select/otherevents.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: absolute;
+    display: none;
+}
+#eventword{
+    position: absolute;        
+    background-position: center center;
+    z-index:10;
+    height: 60px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 35%;
+    background-repeat: no-repeat;
+    background-image: url('../img/select/eventword1.png');
+
+}
+#retreattitle{
+    position: absolute;        
+    background-position: center center;
+    z-index:10;
+    height: 60px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 35%;
+    background-repeat: no-repeat;
+    background-image: url('../img/select/retreattitle.png');
+    display: none;
+}
+#gctitle{
+    position: absolute;        
+    background-position: center center;
+    z-index:10;
+    height: 60px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 35%;
+    background-repeat: no-repeat;
+    background-image: url('../img/select/gctitle.png');
+    display: none;
+}
+#othertitle{
+    position: absolute;        
+    background-position: center center;
+    z-index:10;
+    height: 60px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 35%;
+    background-repeat: no-repeat;
+    background-image: url('../img/select/othertitle.png');
+    display: none;
+}
+#leftspan{
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    z-index: 100;
+}
+.cover{
+    background-image:url('../img/select/cover.png');
+    background-repeat: repeat;
+}
+.retreatlink{
+    background-image:url('../img/select/retreatlink.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.gclink{
+    background-image:url('../img/select/gclink.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.otherlink{
+    background-image:url('../img/select/otherlink.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}
+.enterlink{
+    background-image:url('../img/select/enter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 400px;
+}

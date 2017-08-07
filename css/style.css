@@ -1,0 +1,1192 @@
+body{
+/*	background-image: url('../img/background.jpg');
+	background-repeat: repeat;*/
+	background-color: #fffcf8;
+	font-family: "宋體", "Open Sans";
+}
+
+strong{
+	font-size: 17px;
+}
+
+h1,h2{
+	color: #144382;
+}
+
+
+h2{
+	margin: 10px;
+	text-shadow:2px 2px 4px #f2f2f2;
+}
+
+ul li{
+	font-size: 14px;
+	font-style: normal;
+	font-family: "Open Sans";
+}
+
+
+ol li{
+	font-size: 14px;
+    font-style: normal;
+}
+/*-------------common css----------------*/
+.margin_t_0{margin-top:0;}
+.margin_t_10{margin-top: 10px;}
+.margin_t_15{margin-top: 15px;}
+.margin_t_20{margin-top: 20px;}
+.margin_t_30{margin-top: 30px;}
+.margin_t_160{margin-top: 160px;}
+
+.margin_b_10{margin-bottom: 10px;}
+.margin_b_20{margin-bottom: 20px;}
+.margin_b_30{margin-bottom: 30px;}
+
+.margin_l_10{margin-left: 10px;}
+.margin_l_20{margin-left: 20px;}
+.margin_l_30{margin-left: 30px;}
+
+.margin_r_10{margin-right: 10px;}
+.margin_r_20{margin-right: 20px;}
+.margin_r_30{margin-right: 30px;}
+
+.margin_26_10{margin: 26px 10px;}
+
+.margin_lr_0{margin:0;}
+.padding_lr_0{padding:0;}
+/*-------------header----------------------*/
+/*logo*/
+.logo{
+	display: block;
+	margin: 10px auto;
+	width: 100%;
+	max-width: 410px;
+}
+.cloud1{
+	display: none;
+}
+
+.cloud2{
+	display: none;
+}
+
+.cloud3{
+	display: none;
+}
+
+@media (min-width: 1200px){
+	.cloud1{
+		display: block;
+		position: relative;
+		float: right;
+		margin: 40px;
+		max-width: 120px;
+		width: auto;
+	}
+
+	.cloud2{
+		display: block;
+		position: relative;
+		float: left;
+		margin: 70px 20px 10px 0;
+		max-width: 90px;
+		width: auto;
+	}
+
+	.cloud3{
+		display: block;
+		position: relative;
+		float: left;
+		margin: 45px 10px 20px 20px;
+		max-width: 110px;
+		width: auto;
+	}
+}
+/*=======================================navbar===============================================*/	
+/*navbar*/
+.navbar-default {
+	background-color: inherit;
+	border: none;
+}
+.navbar-default .nav-justified>li>a {
+	color: #144382;
+	/*position: relative;*/
+	/*display: block;*/
+	padding: 10px 5px 5px 5px;
+}
+.navbar-default .nav-justified>li>a:hover, .navbar-default .nav-justified>li>a:focus{
+	color: #fff;
+	background-color: #9ec5f7;
+}
+.dropdown:hover, .dropdown:focus{
+	color: #fff;
+	background-color: #9ec5f7;
+}
+.navbar-default .nav-justified>.open>a, .navbar-default .nav-justified>.open>a:hover, .navbar-default .nav-justified>.open>a:focus {
+	color: #fff;
+	background-color: #9ec5f7;
+}
+.dropdown:hover .dropdown-menu {
+	    /*display: block;*/
+		background-color: inherit;
+	    text-align: center;
+}
+@media (min-width: 768px){
+	.dropdown:hover .dropdown-menu {
+	    display: block;
+		background-color: inherit;
+	    text-align: center;
+	    /*position: relative;*/
+	    /*max-width: 120px;*/
+	}
+}
+.dropdown:hover a, .dropdown:focus a{
+	color: #144382;
+	display: block;
+}
+.navbar-default .dropdown-menu, .nav-justified .dropdown-menu, .navbar .dropdown-menu {
+    margin-top: 0;
+    /*display: none;*/
+}
+.dropdown-menu{
+	padding: 0;
+	border: none;
+	box-shadow: none;
+}
+
+.dropdown-menu li>a{
+	padding: 4px 10px;
+}
+.dropdown-menu li>a:hover{
+	color: white;
+	background-color:inherit; 
+}
+.navbar{
+	border-radius: 0;
+	min-height: 30px;
+	margin-bottom: 0;
+}
+.nav-justified>li {
+	margin: 0;
+}
+
+@media (min-width: 768px){
+	.nav-justified>li>a{
+		font-family: "Open Sans",Arial,Helvetica,sans-serif;
+		font-size: 14px;
+	}
+	.dropdown a{
+		font-size: 14px;
+	}
+}
+
+@media (min-width: 992px){
+	.nav-justified>li>a{
+		font-family: "Open Sans",Arial,Helvetica,sans-serif;
+		font-size: 19px;
+	}
+	.dropdown a{
+		font-size: 18px;
+	}
+}
+
+
+.nav-wrapper{
+	margin-bottom: 20px;
+}
+.subnavbar{
+	background-color: #3076d1;
+	height: 1px;
+	/*margin-bottom: 30px;*/
+}
+.dropdown-menu {
+	min-width: 0px ;
+	width: 100%;
+	border-radius: 0;
+}
+@media (min-width: 1080px){
+	.dropdown-menu {
+	    width: 123.34px;
+	}
+}
+	/*=======================================navbar end===============================================*/
+
+
+/*navbar*/
+.top-search {
+	background-image: url('../img/nav-top.png');
+	background-repeat: repeat-x;
+	border: 0;
+}
+
+.input-group{
+	margin-right: 20px;
+}
+
+.navbar-form{
+	width: 220px;
+	margin-top: 0;
+}
+
+@media (min-width: 768px){
+	.navbar-form{
+		width: 220px;
+		margin-top: 5px;
+	}
+}
+
+.form-control {
+	width: auto;
+	height: 30px;
+	font-size: 12px;
+	border: 1px solid #3076d1;
+}
+
+.btn-default {
+	color: #144382;
+	background-color: #fff;
+	border-color: #3076d1;
+}
+
+.btn{
+	border: 1px solid #3076d1;
+}
+
+
+
+/*=======================================navbar===============================================*/
+
+/*=======================================navbar end===============================================*/
+.breadcrumb{
+	background-color: inherit;
+	margin-bottom: 0;
+}
+
+
+
+.top-line{
+	margin-top: 30px;
+	border-top: 1px solid #3076d1;
+}
+
+.break-line{
+	border-top: 1px dashed #3076d1;
+}
+
+/*main*/
+#main-wrapper{
+	min-height: 400px;
+	z-index: -1;
+}
+
+#main{
+	min-height: 960px;
+	margin-bottom: 40px;
+}
+
+#main2{
+	min-height: 540px;
+}
+
+.title-background{
+	margin: 30px 0 40px 0;
+	background-image: url('../img/title1.png');
+	background-repeat: repeat-x;
+}
+
+.middle-title{
+	margin: 10px 0 0 0;
+}
+
+.title1{
+	margin: 0 20px;
+	background-color: inherit;
+	text-align: center;
+	border: 2px solid #9ec5f7;
+	font-family: "宋體";
+	letter-spacing:4px;
+}
+
+
+.content1{
+	text-indent: 2em;
+	position: relative;
+	float: left;
+	font-family: "宋體";
+}
+
+.content1 p{
+	font-size: 16px;
+	letter-spacing: 0.5px;
+    line-height: 22px;
+    font-style: normal;
+    margin: 0 0 20px;
+}
+
+.title2{
+	margin: 0 20px;
+	background-color: inherit;
+	text-align: center;
+	border: 2px solid #9ec5f7;
+	font-family: "Open Sans";
+}
+
+.content2{
+	font-family: "Open Sans";
+}
+
+.content2 p{
+	font-size: 16px;
+    line-height: 22px;
+    font-style: normal;
+    margin: 0 0 20px;
+    font-family: "Open Sans";
+}
+
+.content2 h4{
+	line-height: 22px;
+}
+
+
+/*select page*/
+.content-wrapper{
+	height: 400px;
+	width: 100%;
+}
+
+#headline{
+	position: absolute;
+	padding-top: 40px;
+	z-index: 5;
+	opacity:1; 
+}
+.header_hover {
+	display:none; 
+	padding-top: 40px;
+	z-index:5; 
+	opacity:0; 
+	position:absolute;
+}
+.header_hover1 {}
+.header_hover2 {}
+.header_hover3 {}
+.header_hover4 {}
+
+#style-stripes {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+
+.mini1{
+	background-image: url('../img/select/biblestudy.jpg');
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.mini2{
+	background-image: url('../img/select/fellowship.jpg');
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.mini3{
+	background-image: url('../img/select/sundayservice.jpg');
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+
+
+#style-stripes .col a:hover span {
+	background-image:url('../img/select/enter.png');
+	background-repeat: no-repeat;
+	background-position: 50% 70%;
+	height: 400px;
+}
+
+#style-stripes .col .eventpic1,
+#style-stripes .col .eventpic2,
+#style-stripes .col .eventpic3{
+    background-image: none;
+}
+
+.event1 a span {
+display: block;
+background-image: url('../img/select/retreatlink.png');
+background-repeat: no-repeat;
+background-position: 50% 70%;
+height: 400px;
+}
+
+.event2 a span {
+display: block;
+background-image: url('../img/select/gclink.png');
+background-repeat: no-repeat;
+background-position: 50% 70%;
+height: 400px;
+}
+
+.event3 a span {
+display: block;
+background-image: url('../img/select/otherlink.png');
+background-repeat: no-repeat;
+background-position: 50% 70%;
+height: 400px;
+}
+
+.about1{
+	background-image: url('../img/select/retreat.jpg');
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.about2{
+	background-image: url('../img/select/gc.jpg');
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.about3{
+	background-image: url('../img/select/otherevents.jpg');
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.about4{
+	background-image: url('../img/select/otherevents.jpg');
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.nav1{
+
+}
+
+
+/*alumni*/
+.form-control.praybox{
+	width: 80%;
+}
+
+/*events*/
+.retreatback{
+	background-image: url('../img/retreat/retreatback.png');
+	background-repeat: no-repeat;
+	background-position-x: 24%;
+	background-position-y: 40px;
+	height: auto;
+	width: auto;
+}
+@media (min-width: 992px){
+	.retreatback{
+		background-position-y: 20px;
+	}
+}
+
+.gcback{
+	background-image: url('../img/gc/gcback.png');
+	background-repeat: no-repeat;
+	background-position-x: 24%;
+	background-position-y: 40px;
+	height: auto;
+	width: auto;
+}
+@media (min-width: 992px){
+	.gcback{
+		background-position-y: 20px;
+	}
+}
+
+.biblestudyback{
+	background-image: url('../img/biblestudy/biblestudyback.png');
+	background-repeat: no-repeat;
+	background-position-x: 30%;
+	background-position-y: 40px;
+	height: auto;
+	width: auto;
+}
+@media (min-width: 992px){
+	.biblestudyback{
+		background-position-y: 20px;
+	}
+}
+
+.teaback1{
+	background-image: url('../img/tea/teaback1.png');
+	background-repeat: no-repeat;
+	background-position-x: 5%;
+	background-position-y: 40px;
+	min-height: 840px;
+	width: auto;
+}
+@media (min-width: 992px){
+	.teaback1{
+		background-position-y: 20px;
+	}
+}
+
+.teaback2{
+	background-image: url('../img/tea/teaback2.png');
+	background-repeat: no-repeat;
+	background-position-x: 80%;
+	background-position-y: 68%;
+	width: auto;
+}
+@media (min-width: 992px){
+	.teaback2{
+		background-position-x: 540px;
+		background-position-y: 80px;
+	}
+}
+
+.helenback2{
+	background-image: url('../img/helen/helenback2.png');
+	background-repeat: no-repeat;
+	background-position-x: 80%;
+	background-position-y: 68%;
+	width: auto;
+}
+@media (min-width: 992px){
+	.helenback2{
+		background-position-x: 540px;
+		background-position-y: 80px;
+	}
+}
+
+.prayermeetingback2{
+	background-image: url('../img/prayermeeting/prayermeetingback2.png');
+	background-repeat: no-repeat;
+	background-position-x: 80%;
+	background-position-y: 68%;
+	width: auto;
+}
+@media (min-width: 992px){
+	.prayermeetingback2{
+		background-position-x: 540px;
+		background-position-y: 80px;
+	}
+}
+
+.fellowshipback{
+	background-image: url('../img/fellowship/fellowshipback.png');
+	background-repeat: no-repeat;
+	background-position-x: 29%;
+	background-position-y: 40px;
+	height: auto;
+	width: auto;
+}
+@media (min-width: 992px){
+	.fellowshipback{
+		background-position-y: 20px;
+	}
+}
+
+.sundayserviceback{
+	background-image: url('../img/sundayservice/sundayserviceback.png');
+	background-repeat: no-repeat;
+	background-position-x: 29%;
+	background-position-y: 40px;
+	height: auto;
+	width: auto;
+}
+@media (min-width: 992px){
+	.sundayserviceback{
+		background-position-y: 20px;
+	}
+}
+
+@media (min-width: 992px){
+	.time{
+		padding-top: 120px;
+		width: 100%;
+		height: 120px;
+		background-color: inherit;
+	}
+}
+
+
+.timedetail{
+	padding-top: 5px;
+	font-weight: 100px;
+	text-align: center;
+	height: 120px;
+	background: rgba(9,35,71,0.1);
+	color: #144382;
+	line-height: 12px;
+}
+
+@media (min-width: 768px){
+	.timedetail{
+		text-align: right;
+		padding-right: 20px;
+	}
+}
+
+@media (min-width: 992px){
+	.teapic1{
+		padding-top: 60px;
+		padding-bottom: 60px;
+		width: 100%;
+		height: 180px;
+		background-color: inherit;
+	}
+}
+
+@media (min-width: 992px){
+	.teapic2{
+		padding-top: 20px;
+		height: 180px;
+		background-color: inherit;
+	}
+}
+
+.teadetail{
+	max-width: 460px;
+	height: 280px;
+	background-image: url('../img/tea/1.jpg');
+	background-repeat:no-repeat;
+	background-position-y: -70px; 
+	background-size: cover;
+/*	color: white;
+	line-height: 12px;*/
+}
+
+.teadetail2{
+	max-width: 460px;
+	height: 280px;
+	background-image: url('../img/tea/2.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+/*	color: white;
+	line-height: 12px;*/
+}
+
+@media (min-width: 768px){
+	.teadetail{
+/*		text-align: right;
+		padding-right: 20px;*/
+	}
+}
+
+.teainside{
+	height: 180px;
+}
+
+.inside{
+	height: 110px;
+}
+
+.insidetitle{
+	text-align: right;
+	padding: 0 80px 0 0;
+	font-style: italic;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+.inside2{
+	height: 60px;
+}
+
+@media (min-width: 768px){
+	.inside2{
+		height: 260px;
+	}
+}
+
+.insidetitle2{
+	text-align: right;
+	padding: 0 0 0 100px;
+	font-style: italic;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.topline{
+	border-top: 1px solid #9ec5f7;
+	z-index: -999;
+}
+
+.content{
+	background-color: #fffcf8;
+	padding: 80px 20px;
+}
+
+@media (min-width: 992px){
+	.content{
+		background-color: inherit;
+	}
+}
+
+.gospelcontent{
+	background-color: #fffcf8;
+	padding: 20px 20px 20px 20px;
+}
+
+@media (min-width: 992px){
+	.gospelcontent{
+		padding: 280px 80px 20px 20px;
+		background-color: inherit;
+	}
+}
+
+.retreat1{
+	margin-top: 40px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	height: 220px;
+	background-image: url('../img/retreat/1.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+}
+
+.retreat2{
+	margin-top: 40px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	height: 220px;
+	background-image: url('../img/retreat/2.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+}
+
+.retreat3{
+	margin-top: 40px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	height: 220px;
+	background-image: url('../img/retreat/3.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+}
+
+.retreat4{
+	margin-top: 40px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	height: 220px;
+	background-image: url('../img/retreat/4.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+}
+
+.gc1{
+	margin-top: 40px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	height: 220px;
+	background-image: url('../img/gc/1.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+}
+
+.gc2{
+	margin-top: 40px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	height: 220px;
+	background-image: url('../img/gc/2.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+}
+
+.gc3{
+	margin-top: 40px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	height: 220px;
+	background-image: url('../img/gc/3.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+}
+
+.gc4{
+	margin-top: 40px;
+	margin-bottom: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 220px;
+	height: 220px;
+	background-image: url('../img/gc/4.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+}
+
+.biblestudy1{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 260px;
+	background-image: url('../img/biblestudy/1.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+}
+@media (min-width: 768px){
+	.biblestudy1{
+		width: 500px;
+	}
+}
+@media (min-width: 1200px){
+	.biblestudy1{
+		width: 600px;
+	}
+}
+
+.fellowship1{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 260px;
+	background-image: url('../img/fellowship/1.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+}
+
+@media (min-width: 768px){
+	.fellowship1{
+		width: 500px;
+	}
+}
+@media (min-width: 1200px){
+	.fellowship1{
+		width: 600px;
+	}
+}
+
+.sundayservice1{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	height: 260px;
+	background-image: url('../img/sundayservice/1.jpg');
+	background-repeat:no-repeat;
+	background-position:center; 
+	background-size: cover;
+}
+@media (min-width: 768px){
+	.sundayservice1{
+		width: 500px;
+	}
+}
+@media (min-width: 1200px){
+	.sundayservice1{
+		width: 600px;
+	}
+}
+
+.contentbuttom p{
+	display: inline;
+	padding: 10px;
+	margin: 10px;
+	text-decoration: none;
+	color: #fff;
+	background-color: #3076d1;
+	border: 1px solid	#3076d1;
+}
+
+.contentbuttom p:hover{
+	background-color: #144382;
+}
+
+.contentbuttom{
+	text-align: center;
+}
+
+@media (min-width: 1200px){
+	.contentbuttom{
+		text-align: left;
+	}
+}
+
+/*------profile----------*/
+.profilepic{
+	height: 260px;
+	overflow: hidden;
+}
+.profilepic img{
+    max-width: 250px;
+    background-color: #fff;
+    padding: 8px;
+    /*border: 1px solid #3076d1;*/
+    box-shadow: 3px 3px 3px #909090;
+}
+
+
+/*footer*/
+
+#footer{
+	height: auto;
+	background-color: #144382;
+	color: #ffffff;
+	position: relative;
+	bottom: 0;
+	margin-top: 20px;
+}
+
+.left-footer{
+	height: 120px;
+}
+
+.email{
+	margin: 40px 20px;
+	text-align: center;
+
+}
+
+.email-logo{
+	width: 35px;
+	display: inline;
+}
+
+.email p{
+	font-style: italic;
+	padding-top: 10px;
+
+}
+
+.email a{
+	color: #fff;
+}
+
+.middle-footer{
+	height: 120px;
+}
+
+.logo1{
+	height: 120px;
+	float: right;
+}
+
+.address{
+	float: left;
+}
+
+.address h4{
+	padding-top: 10px;
+}
+
+.address p{
+	font-size: 12px;
+}
+
+.right-footer{
+	height: 120px;
+}
+
+@media (min-width: 992px){
+	.middle-footer{
+		background-image: url("../img/seperate.png");
+		background-repeat: no-repeat;
+		background-position: 0 40px; 
+		background-color: inherit;
+	}
+}
+
+
+
+@media (min-width: 992px){
+		.right-footer{
+		background-image: url("../img/seperate.png");
+		background-repeat: no-repeat;
+		background-position: 0 40px; 
+	}
+}
+
+.icon{
+	text-align: center;
+	width:  90%;
+	margin: 40px 0 40px 15px;
+}
+
+.facebook{
+	display: inline;
+	width: 30px;
+}
+
+.youtube{
+	display: inline;
+	width: 30px;
+}
+
+.icon p{
+	font-style: italic;
+}
+
+.icon a{
+	color: #fff;
+}
+
+.note{
+	height: auto;
+	width: 100%;
+	position: relative;
+	float: left;
+	background-color: #0a2344;
+}
+
+.note p{
+	color: #f3f3f3;
+	font-size: 12px;
+	text-align:center;
+	padding: 10px 0 2px 0;
+	z-index: 999;
+}
+
+.back a{
+	color: #144382;
+	font-family: "Times New Roma";
+    font-style: italic;
+    font-size: 14px;
+    padding: 1em;
+    padding-top: 15px;
+    z-index: 999;
+}
+
+.back a:hover, .back a:focus{
+	color: #fff;
+    text-decoration: none;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 2em;
+    right: 20px;
+    background-color: #9ec5f7;
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    display: none;
+    z-index: 999;
+}
+/** this are the css for the gallery**/
+a,
+.galleryThumbnails img{
+	transition:all 150ms linear;
+	-webkit-transition:all 150ms linear;
+	-moz-transition:all 150ms linear;
+}
+.galleryContainer{
+	margin:40px auto;
+	width: 900px;
+}
+.gallerypreviewcontainer{
+	position: relative;
+}
+.gallerypreviewimage img{
+	display: none;
+	border-radius: 30px;
+	-webkit-border-radius:30px;
+	-moz-border-radius:30px;
+	box-shadow: 5px 5px 0 0 #c1c1c1;
+	position: relative;
+	top:0;
+	left:0;
+
+}
+img.previewImage1{
+	display: block;
+}
+.galleryThumbnailsContainer{
+	width: 900px;
+	overflow-x:auto;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	padding: 20px 0;
+
+}
+.galleryThumbnails{
+	width:2000px;
+}
+.galleryThumbnails img{
+	border-radius: 20px;
+	-webkit-border-radius:20px;
+	-moz-border-radius:20px;
+	margin-right: 10px;
+	border:4px solid #e0e0e0;
+	position: relative;
+	top:0;
+}
+.galleryThumbnails a:hover img{
+	top:-5px;
+	border:4px solid #999;
+}
+.galleryThumbnails a.active img{
+	border:4px solid red;
+}
+.galleryDescription > div{
+	display: none;
+}
+.galleryDescription >div.visible{
+	display: block;
+}
+.gallerypreviewarrows a{
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	background: rgba(0,0,0,0.3);
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	display: none;
+	text-align: center;
+	color: #FFF;
+	text-decoration: none;
+	border-radius: 100px;
+	-webkit-border-radius:100px;
+	-moz-border-radius:100px;
+	position: absolute;
+	left:20px;
+	top: 50%;
+	margin-top: -35px;
+}
+a.nextSlideArrow{
+	right: 20px;
+	left: auto;
+}
+.gallerypreviewarrows a:

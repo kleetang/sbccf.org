@@ -1,0 +1,88 @@
+.theme h3{
+	color: #144382;
+}
+
+#main-wrapper{
+	min-height: 600px;
+}
+
+.banner{
+	max-height: 365px;
+	
+	border: 1px solid #fff;
+}
+.banner-inner{
+	max-height: 363px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.item{
+	height: 100%;
+	background-size: cover;
+}
+.welcome{
+	height: 365px;
+	background-color: #3076AF;
+	text-align: center;
+	color: #fff;
+	padding: 25px;
+	border: 1px solid #fff;
+	/*font-family: "黑體"；*/
+}
+
+.news{
+	min-height: 600px;
+	text-align: center;
+	/*background-color: red;*/
+	border: 1px solid #fff;
+
+}
+
+.event1{
+	border: 1px solid #9ec5f7;
+}
+.event1pic{
+	background-image: url('../img/CCFflyer.jpg');
+	height: 600px;
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.event2{
+	margin-top: 1px;
+	border: 1px solid #9ec5f7;
+	/*padding: 20px;*/
+}
+.event2pic{
+	background-image: url('../img/retreat14.jpg');
+	height: 300px;
+	background-size: cover;
+	background-position: center;
+}
+
+.general{
+	min-height: 600px;
+	text-align: center;
+	/*font-family: "黑體"；*/
+	border: 1px solid #fff;
+}
+
+.theme{
+	margin: 0 0 2px 0;
+	border: 1px solid #9ec5f7;
+	padding: 0 10px;
+}
+.sundayservice{
+	border: 1px solid #9ec5f7;
+}
+
+.fellowship{
+	margin: 2px 0;
+	border: 1px solid #9ec5f7;
+}
+
+.event1{
+	overflow: hidden;
+}
